@@ -98,6 +98,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+ 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
